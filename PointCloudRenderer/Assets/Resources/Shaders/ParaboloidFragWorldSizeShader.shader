@@ -147,7 +147,7 @@ Shader "Custom/ParaboloidFragWorldSizeShader"
 				UNITY_SETUP_INSTANCE_ID(input[0]);
 				// copy instance id in the v2f i[0] to the g2f o
 				UNITY_TRANSFER_INSTANCE_ID(input[0], out4);
-				UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(ou4);
+				UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(out4);
 				
 				out4.position = input[0].position;
 				out4.color = input[0].color;
