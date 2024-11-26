@@ -27,10 +27,6 @@ PointCloudRenderer/.vs/
 *.booproj
 *.svd
 
-#exception for TestProject
-!Tests/Tests.csproj
-
-
 # Unity3D generated meta files
 *.meta
 
@@ -44,7 +40,6 @@ PointCloudRenderer/.vs/
 *.unitypackage.meta
 *.app
 
-
 #Plugins
 */Assets/Plugins.meta
 */Assets/Plugins/
@@ -52,10 +47,6 @@ PointCloudRenderer/.vs/
 
 #other stuff
 _ignore/
-
-*.avi
-PointCloudRenderer/evalogfiles/*
-PointCloudRenderer/evalapps/*
 
 #Clouds
 PointCloudRenderer/Clouds/big/*
